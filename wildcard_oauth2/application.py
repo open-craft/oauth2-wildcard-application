@@ -9,7 +9,7 @@ from urllib.parse import urlparse
 
 from django.core.exceptions import ValidationError
 
-from oauth2_provider.models import AbstractApplication
+from oauth2_provider.models import Application as AbstractApplication
 from oauth2_provider.settings import oauth2_settings
 
 
