@@ -63,3 +63,6 @@ class Application(AbstractApplication):
                     return True
 
         return False
+
+    class Meta:
+        db_table = 'oauth2_provider_application'
